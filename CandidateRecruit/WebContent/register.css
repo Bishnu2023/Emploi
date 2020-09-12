@@ -1,0 +1,167 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.main{
+	margin-top: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 8% 70px;
+	font-size: 15px;
+	width: 400px;
+	background-color: #f0f0f0;
+	padding-left: 40px;
+	box-shadow: 3px 3px 8px 3px white;
+	transition: .6s linear;
+	transition-property: width,height;
+	transition-duration: .6s;
+	transition-timing-function: linear;
+	/*margin-left: 5px */
+}
+.resume{
+	font-size: 90%;
+
+}
+.legend{
+	font-size: 170%;
+}
+.main:hover{
+	width: 33%;
+	height: 60vh;
+	font-size: 18px;
+}
+.main:hover .can{
+font-size: 35px;
+}
+.can{
+	position: absolute;
+	top: 8%;
+	left: 20%;
+	font-size: 30px;
+	padding-bottom: 30px;
+	
+}
+.type{
+	margin:5px 0px 5px 5px;
+	font-size: 20px;
+}
+.regbtn{
+	font-size: 25px;
+	margin-top: 40px;
+	margin-left: 90px;
+	border-radius: 10px;
+	padding: 2px 4px;
+	font-family: 'Fondamento';
+	transition-property:  width,height;
+	transition-duration: .4s;
+	transition-timing-function: linear;
+	transition: .4s linear;
+}
+.regbtn:hover{
+	background-color: green;
+	color: white;
+	width: 150px;
+	height: 45px;
+	border-radius: 20px;
+}
+.alr{
+	padding-top: 20px;
+	font-size: 25px;
+
+}
+body{
+	background-image: url('cur8.jpg');
+	background-size: cover;
+}
+@media screen and (max-width: 1200px)
+{
+	body{
+		width: 100%;
+		height: 100vh;
+	}
+	.main{
+		font-size: 12px;
+		width: 200px;
+		height: 360px;
+		transition-property: width;
+	}
+	.main:hover{
+		font-size: 17px;
+		width: 50vh;
+	}
+	.can{
+		font-size: 22px;
+	}
+	.regbtn{
+		font-size: 20px;
+	}
+	.regbtn:hover{
+		width: 120px;
+		height: 40px;
+	}
+	.alr{
+		font-size: 18px;
+	}
+	.main:hover .can{
+		font-size: 20px;
+	}
+
+	.legend{
+		font-size: 130%;
+	}
+	.type{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 800px)
+{
+	.main{
+		font-size: 12px;
+		width: 200px;
+		transition-property: width;
+	}
+	.main:hover{
+		font-size: 13px;
+		width: 230px;
+	}
+	.can{
+		font-size: 22px;
+	}
+	.main:hover .can{
+		font-size: 20px;
+	}
+	.legend{
+		font-size: 130%;
+	}
+	.type{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 600px)
+{
+	.main{
+		font-size: 13px;
+		height: 400px;
+	}
+	.main:hover{
+		font-size: 13px;
+		height: 400px;
+	}
+	.can{
+		font-size: 20px;
+	}
+	.main:hover .can{
+		font-size: 18px;
+	}
+	.legend{
+		font-size: 130%;
+	}
+	.type{
+		font-size: 15px;
+	}
+	.alr{
+		font-size: 15px;
+	}
+}

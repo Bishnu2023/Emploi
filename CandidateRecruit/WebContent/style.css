@@ -1,0 +1,227 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.logo{
+	 font-size: 45px;
+	 padding-top: 25px; 	 
+     padding-left: 25%;
+     letter-spacing: 1px;
+     word-spacing: 10px;
+     font-family: 'Fondamento';
+     font-style: italic;
+     text-transform: uppercase;
+     font-weight: 800;
+     box-shadow: 2px 8px 9px 7px green;
+}
+.logoa{
+	animation: colorchange 2s infinite;
+}
+@keyframes colorchange{
+0%{color: red;}
+25%{color: purple;}
+50%{color: red;}
+100%{color:white;}
+}
+
+
+header{
+	width: 100%;
+	height: 50px;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url('cur7.jpg');
+	/*opacity: 0.8;*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.rec{
+	/*border: 1px solid red;*/
+	box-shadow: 3px 4px 20px 4px black;
+	width: 300px;
+	height: 200px;
+	background-size: cover;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transition: transform(-50%,-50%);
+	transition: transform 2s;
+}
+.rec img{
+	opacity: 0.5;
+	width: 300px;
+	height: 200px;
+}
+.rec:hover{
+	transform: scale(1.5);
+	z-index: 2;
+}
+.rec:hover img{
+	opacity: 1;
+}
+.emp{
+	/*border:1px solid red;*/
+	box-shadow: 3px 4px 20px 4px black;
+	width: 300px;
+	height: 200px;
+	background-size: cover;
+	position: absolute;
+	left: 15%;
+	top: 35%;
+	transition: transform 2s;
+}
+.emp img{
+	opacity: 0.5;
+}
+.emp:hover{
+	transform: scale(1.5);
+	z-index: 2;
+}
+.emp:hover img{
+	opacity: 1;
+}
+.figemp{
+	font-family: 'Fondamento';
+	font-style: italic; 
+	font-size: 29px;
+	margin-top: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	opacity: 1;
+}
+.figrec{
+	opacity: 1;
+	letter-spacing: 2px;
+	font-family: 'Fondamento';
+	font-style: italic; 
+	font-size: 29px;
+	margin-top: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+@media screen and (max-width: 1000px)
+{
+	.logo{
+		font-size: 38px;
+	}
+	.emp{
+		width: 250px;
+		height: 170px;
+
+	}
+	.emp img{
+		width: 250px;
+		height: 170px;
+	}
+	.rec{
+		width: 250px;
+		height: 170px;
+
+	}
+	.rec img{
+		width: 250px;
+		height: 170px;
+	}
+	.figrec{
+		font-size: 24px;
+	}
+	.figemp{
+		font-size: 24px;
+	}
+
+}
+@media screen and (max-width: 900px){
+	.logo{
+		font-size: 31px;
+	}
+	.emp{
+		width: 220px;
+		height: 140px;
+
+	}
+	.emp img{
+		width: 220px;
+		height: 140px;
+	}
+	.rec{
+		width: 220px;
+		height: 140px;
+
+	}
+	.rec img{
+		width: 220px;
+		height: 140px;
+	}
+		.figrec{
+		font-size: 23px;
+	}
+	.figemp{
+		font-size: 23px;
+	}		
+}
+@media screen and (max-width: 700px){
+	.logo{
+		font-size: 25px;
+	}
+	.emp{
+		width: 180px;
+		height: 120px;
+
+	}
+	.emp img{
+		width: 180px;
+		height: 120px;
+	}.rec{
+		width: 180px;
+		height: 120px;
+
+	}
+	.rec img{
+		width: 180px;
+		height: 120px;
+	}
+		.figrec{
+		font-size: 20px;
+	}
+	.figemp{
+		font-size: 20px;
+	}
+
+		
+}
+@media screen and (max-width: 550px){
+	.emp{
+		width: 160px;
+		height: 110px;
+	}
+	.emp img{
+		width: 160px;
+		height: 110px;
+	}.rec{
+		width: 160px;
+		height: 110px;
+
+	}
+	.rec img{
+		width: 160px;
+		height: 110px;
+	}
+		.figrec{
+		font-size: 19px;
+	}
+	.figemp{
+		font-size: 19px;
+	}
+
+
+
+		}
+.btnn a{
+	text-decoration: none;
+}

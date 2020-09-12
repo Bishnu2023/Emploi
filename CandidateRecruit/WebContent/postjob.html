@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="postjob.css">
+</head>
+
+<body>
+    <div class="image">
+                <img src="job.jpg">
+                </div>  
+               <div class="container-fluid text-center main">
+        <div class="heading">
+            <h2 style="">Post Job </h2>
+        </div>
+   </div>
+           <div class="container-fluid">
+           <form action="postajob1.jsp">
+        <div class="form-group content" style="width: 500px;">
+            <label for="jobtitle" style="font-size: 20px;padding-bottom:2px;">Job Title :&nbsp </label>
+            <input type="text"  id="jobtitle" name="jobtitle" class="form-control">
+            <label for="joblocation"style="font-size: 20px;padding-bottom:2px;">Job Location</label>
+            <select class="form-control" name="joblocation">
+                <option>Select State</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Maharasthra">Maharasthra</option>
+                <option value="Gujrat">Gujarat</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Goa">Goa</option>
+            </select><br>
+            <label for="jobtype"style="font-size: 20px;border-bottom:1px solid black;padding-bottom:2px;">Job Type</label><br>
+            <div class="text-center">
+            <input type="radio" id="jobtype" name="jobtype" value="Full-Time">&nbsp&nbsp&nbsp&nbsp Full-Time<br>
+            <input type="radio" id="jobtype" name="jobtype" value="Part-Time">&nbsp&nbsp&nbsp&nbsp Part-Time<br>  
+            <input type="radio" id="jobtype" name="jobtype" value="Temporary">&nbsp&nbsp&nbsp Temporary<br>
+            <input type="radio" id="jobtype" name="jobtype" value="Contract">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Contract<br>
+            <input type="radio" id="jobtype" name="jobtype" value="Internship"> &nbsp&nbsp&nbspInternship<br>
+            <input type="radio" id="jobtype" name="jobtype" value="Commission"> Commission<br>
+            <input type="radio" id="jobtype" name="jobtype" value="Volunteer"> &nbsp&nbsp&nbsp&nbsp&nbspVolunteer<br>
+            <input type="radio" id="jobtype" name="jobtype" value="Fresher"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFresher<br>
+            <input type="radio" id="jobtype" name="jobtype" value="Walk-in"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWalk-in<br>
+            
+            </div>
+            </form>
+            <label for="jobdescription">Job Description</label><br>
+            <textarea id="jobdescription" name="jobdescription" style="width: 400px;"></textarea>
+            <button class="submit">SUBMIT</button><br><br>
+        </div>
+        </form>
+    </div>
+</body>
+
+</html>

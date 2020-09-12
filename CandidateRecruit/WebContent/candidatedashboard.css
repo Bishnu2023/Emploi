@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('cur4.jpg');
+	background-size: cover;
+}
+.post{
+width: 300px;
+	height:190px;
+	position: absolute;
+	left: 35%;
+	top: 20%;
+	box-shadow: 4px 4px 8px 4px grey;
+	background-size: cover;
+	transition: transform 2s;
+	text-transform: uppercase;
+
+}
+.post:hover{
+	transform: rotate(360deg);
+}
+.logo{
+	font-size: 50px;
+	font-family: 'Fondamento';
+	text-transform: uppercase;
+	padding-left: 24%;
+	padding-top: 5px;
+	box-shadow: 4px 2px 8px 3px grey;
+}
+.interview{
+width: 300px;
+background-size: 100% 100%;
+	height: 167px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 20%;
+	top: 60%;
+	box-shadow: 4px 4px 8px 4px grey;
+	transition: transform 2s;
+
+}
+.interview:hover{
+	transform: skewY(12deg);
+}
+.queries{
+	width: 300px;
+	height: 168px;
+	background-size: cover;
+	text-transform: uppercase;
+	position: absolute;
+	left: 55%;
+	top: 60%;
+	box-shadow: 4px 4px 8px 4px grey;
+	transition: transform 2s;
+}
+.queries:hover{
+	transform: skewX(20deg);
+}
+.figjob{
+	font-size: 25px;
+	font-style: italic;
+	padding-top: 23px;
+	font-weight: 600;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
+.figcan{
+	font-weight: 600;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	font-size: 25px;
+	font-style: italic;
+	padding-top: 5px;
+}
+.figint{
+	font-weight: 600;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	font-size: 25px;
+	font-style: italic;
+	padding-top: 5px;
+}
+.figque{
+	font-weight: 600;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	font-size: 25px;
+	font-style: italic;
+	padding-top: 5px;
+}
+@media screen and (max-width: 1000px)
+{
+	.logo{
+		font-size: 38px;
+	}
+	.post{
+		width: 250px;
+		height: 170px;
+
+	}
+	.post img{
+		width: 250px;
+		height: 170px;
+	}
+	.interview{
+		width: 250px;
+		height: 170px;
+
+	}
+	.interview img{
+		width: 250px;
+		height: 170px;
+	}
+	.queries{
+		width: 250px;
+		height: 170px;
+
+	}
+	.queries img{
+		width: 250px;
+		height: 170px;
+	}
+	.figjob{
+		font-size: 20px;
+	}
+	.figint{
+		font-size: 20px;
+	}
+	.figque{
+		font-size: 20px;
+	}
+
+}
+@media screen and (max-width: 900px)
+{
+	.logo{
+		font-size: 32px;
+	}
+	.post{
+		width: 220px;
+		height: 120px;
+
+	}
+	.post img{
+		width: 220px;
+		height: 140px;
+	}
+	.interview{
+		width: 220px;
+		height: 140px;
+
+	}
+	.interview img{
+		width: 220px;
+		height: 140px;
+	}
+	.queries{
+		width: 220px;
+		height: 140px;
+
+	}
+	.queries img{
+		width: 220px;
+		height: 140px;
+	}
+	.figjob{
+		font-size: 18px;
+	}
+	.figint{
+		font-size: 18px;
+	}
+	.figque{
+		font-size: 18px;
+	}
+
+}
+@media screen and (max-width: 700px)
+{
+	.logo{
+		font-size: 25px;
+	}
+	.post{
+		width: 180px;
+		height: 120px;
+
+	}
+	.post img{
+		width: 180px;
+		height: 120px;
+	}
+	.interview{
+		width: 180px;
+		height: 120px;
+
+	}
+	.interview img{
+		width: 180px;
+		height: 120px;
+	}
+	.queries{
+		width: 180px;
+		height: 120px;
+
+	}
+	.queries img{
+		width: 180px;
+		height: 120px;
+	}
+	.figjob{
+		font-size: 18px;
+	}
+	.figint{
+		font-size: 18px;
+	}
+	.figque{
+		font-size: 18px;
+	}
+
+}
+
+@media screen and (max-width: 550px)
+{
+	.logo{
+		font-size: 25px;
+	}
+	.post{
+		width: 160px;
+		height: 110px;
+
+	}
+	.post img{
+		width: 160px;
+		height: 110px;
+	}
+	.interview{
+		width: 160px;
+		height: 110px;
+
+	}
+	.interview img{
+		width: 160px;
+		height: 110px;
+	}
+     .queries{
+		width: 160px;
+		height: 110px;
+	}
+	.queries img{
+		width: 160px;
+		height: 110px;
+	}
+	.figjob{
+		font-size: 16px;
+	}
+	.figint{
+		font-size: 16px;
+	}
+	.figque{
+		font-size: 16px;
+	}
+}

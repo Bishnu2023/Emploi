@@ -1,0 +1,33 @@
+.btnn{
+	padding-top: 20px;
+	margin-top: 20px;
+	float: right;
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: 20px;
+	font-size: 20px;
+	padding: 4px 5px;
+	color: purple;
+	background-color: #fff;
+	border-radius: 35px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-family: 'Fondamento';
+}
+.btnn:hover{
+	background-color: purple;
+	color: white;
+}
+.btnn a:hover{
+	color: #fff;
+}
+.btnn{
+	transition-property:  width,height;
+	transition-duration: .4s;
+	transition-timing-function: linear;
+	transition: .4s linear;
+}
+.btnn:hover{
+	width: 80px;
+	height: 70px;
+}

@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgba(5,5,5,0.9);
+}
+.main{
+	padding-top: 40px;
+	background-color: rgba(5,5,5,0.1);
+	box-shadow: 1px 5px 16px 2px grey;
+	transition: 0.8s linear;
+}
+ h2{
+  font-family: poppins,sens-serif;
+}
+.button{
+	margin-left:  40%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.main:hover{
+	font-size: 120%;
+	transition: 0.5s linear
+}
